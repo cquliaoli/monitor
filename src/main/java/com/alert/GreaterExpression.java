@@ -6,6 +6,7 @@ public class GreaterExpression implements Expression{
     private String key;
     private long value;
     private int id;
+
     public GreaterExpression(String key, long value, int id) {
         this.key = key;
         this.value = value;

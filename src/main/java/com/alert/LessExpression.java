@@ -5,8 +5,8 @@ import java.util.Map;
 public class LessExpression implements Expression{
     private String key;
     private long value;
-
     private int id;
+
     public LessExpression(String key, long value, int id) {
         this.key = key;
         this.value = value;

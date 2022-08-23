@@ -6,6 +6,7 @@ public class EqualExpression implements Expression{
     private String key;
     private long value;
     private int id;
+
     public EqualExpression(String key, long value, int id) {
         this.key = key;
         this.value = value;
